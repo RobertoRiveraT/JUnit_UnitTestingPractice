@@ -41,6 +41,11 @@ public class Demo {
      * @return true if the three sides form a triangle; false otherwise
      */
     public static boolean isTriangle(double a, double b, double c) {
-        return (a + b > c) && (a + c > b) && (b + c > a);
+        if ((a + b > c) &&
+            (a + c > b) && // should be a + c > b
+            (b + c > a)) {
+            return true; 
+        }
+        return false;
     }
 }

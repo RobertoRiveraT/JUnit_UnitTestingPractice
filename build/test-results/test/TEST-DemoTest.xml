@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DemoTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-06-01T08:45:48" hostname="LAPTOP-L2S7B0NN" time="0.023">
+<testsuite name="DemoTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2025-06-03T23:27:13" hostname="LAPTOP-L2S7B0NN" time="0.019">
   <properties/>
-  <testcase name="testIsTriangle_BoundaryCaseEquals" classname="DemoTest" time="0.004"/>
-  <testcase name="testIsTriangle_AllSidesZero" classname="DemoTest" time="0.0"/>
-  <testcase name="testIsTriangle_InvalidTriangle" classname="DemoTest" time="0.0"/>
-  <testcase name="testMain_ValidTriangleOutput" classname="DemoTest" time="0.014"/>
+  <testcase name="testIsTriangle_OneZeroSide" classname="DemoTest" time="0.002"/>
+  <testcase name="testIsTriangle_LimiteCincoCincoDiez" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsTriangle_AllZeros" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsTriangle_BasicInvalid" classname="DemoTest" time="0.0"/>
+  <testcase name="testMain_ValidTriangleOutput" classname="DemoTest" time="0.011"/>
   <testcase name="testIsTriangle_EquivalenceInvalid" classname="DemoTest" time="0.0"/>
   <testcase name="testIsTriangle_LargeNumbers" classname="DemoTest" time="0.0"/>
-  <testcase name="testIsTriangle_ValidTriangle" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsTriangle_FloatPermutation1" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsTriangle_FloatPermutation2" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsTriangle_FloatPermutation3" classname="DemoTest" time="0.0"/>
   <testcase name="testIsTriangle_NegativeSide" classname="DemoTest" time="0.0"/>
+  <testcase name="testMain_NonNumericInputThrows" classname="DemoTest" time="0.001"/>
+  <testcase name="testIsTriangle_LimiteJustoMayor" classname="DemoTest" time="0.0"/>
   <testcase name="testIsTriangle_EquivalenceValid" classname="DemoTest" time="0.0"/>
+  <testcase name="testMain_PartialInputThrows" classname="DemoTest" time="0.001"/>
   <testcase name="testMain_InvalidTriangleOutput" classname="DemoTest" time="0.001"/>
-  <testcase name="testIsTriangle_OneSideZero" classname="DemoTest" time="0.0"/>
-  <testcase name="testIsTriangle_BoundaryJustValid" classname="DemoTest" time="0.0"/>
+  <testcase name="testIsTriangle_BasicValid" classname="DemoTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
